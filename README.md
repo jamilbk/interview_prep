@@ -19,3 +19,12 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/interview_prep](https://hexdocs.pm/interview_prep).
 
+## Requirements
+
+* Recent version of Elixir. 1.9 and above should work fine, perhaps even older.
+
+## Running
+
+All interview problems are implemented as ExUnit tests. Simply run the test
+suite with `mix test` from the project root. Failing tests indicate incorrect
+answers.
