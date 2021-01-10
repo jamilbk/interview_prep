@@ -1,6 +1,8 @@
 # Elixir Interview Prep
 
-A simple hex package to practice common interview problems in Elixir.
+Common coding problems, implemented in Elixir.
+
+Check [the lib directory](./lib) for all the problems.
 
 ## Installation
 
@@ -21,7 +23,8 @@ be found at [https://hexdocs.pm/interview_prep](https://hexdocs.pm/interview_pre
 
 ## Requirements
 
-* Recent version of Elixir. 1.9 and above should work fine, perhaps even older.
+* Recent version of Elixir and OTP. 1.9 and above should work fine, perhaps
+  even older.
 
 ## Running
 
