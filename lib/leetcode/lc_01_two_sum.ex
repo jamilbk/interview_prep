@@ -39,12 +39,12 @@ defmodule InterviewPrep.LC01TwoSum do
   @doc """
   ## Examples
 
-      iex> InterviewPrep.LC01TwoSum.two_sum([2, 7, 11, 15], 9)
-      [1, 0]
-      iex> InterviewPrep.LC01TwoSum.two_sum([3, 2, 4], 6)
-      [2, 1]
-      iex> InterviewPrep.LC01TwoSum.two_sum([3, 3], 6)
-      [0, 0]
+      iex> InterviewPrep.LC01TwoSum.two_sum([2, 7, 11, 15], 9) |> Enum.sort
+      [0, 1]
+      iex> InterviewPrep.LC01TwoSum.two_sum([3, 2, 4], 6) |> Enum.sort
+      [1, 2]
+      iex> InterviewPrep.LC01TwoSum.two_sum([3, 3], 6) |> Enum.sort
+      [0, 1]
   """
   def two_sum(nums, target) do
     seen = %{}
