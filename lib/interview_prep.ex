@@ -1,4 +1,6 @@
 defmodule InterviewPrep do
+  @moduledoc false
+
   @doc """
   Hello world.
 

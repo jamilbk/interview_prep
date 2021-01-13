@@ -31,6 +31,7 @@ defmodule InterviewPrep.Quicksort do
 
   """
   def quicksort(list) when length(list) <= 1, do: list
+
   def quicksort(list) when is_list(list) do
     # Set pivot to value of first element
     [pivot | new_list] = list

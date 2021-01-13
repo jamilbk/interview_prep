@@ -51,9 +51,11 @@ defmodule InterviewPrep.LC01TwoSum do
     index = 0
     two_sum(nums, target, seen, index)
   end
+
   def two_sum([num | rem_nums], target, %{} = seen, index) do
     if num do
       complement = target - num
+
       if seen[complement] do
         [index, seen[complement]]
       else
